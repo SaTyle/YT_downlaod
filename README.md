@@ -25,6 +25,18 @@ pip3 install -r requirements.txt
 
 ## Run
 
+There are two versions — use whichever you prefer:
+
+**Streamlit (recommended, single file):**
+
+```bash
+streamlit run streamlit_app.py
+```
+
+It opens in your browser automatically (usually http://localhost:8501).
+
+**Flask (HTML/CSS/JS version):**
+
 ```bash
 python3 app.py
 ```
