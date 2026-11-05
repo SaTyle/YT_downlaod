@@ -25,11 +25,29 @@ pip3 install -r requirements.txt
 
 ## Run
 
+**Easiest — double-click** `Start YouTube Downloader.command` in Finder.
+It installs anything missing and opens the app in your browser.
+
+**Or from the terminal:**
+
+```bash
+./run.sh
+```
+
+**Or directly:**
+
 ```bash
 streamlit run streamlit_app.py
 ```
 
 It opens in your browser automatically (usually http://localhost:8501).
+
+> **Run it on your own machine.** This works because your home internet
+> connection is what YouTube accepts. Hosting it on a cloud server
+> (Streamlit Cloud, Heroku, etc.) does **not** work reliably — YouTube
+> blocks datacenter IPs with `HTTP 403 Forbidden` / "confirm you're not a
+> bot", and public downloaders also violate those hosts' and YouTube's
+> terms. Keep it local.
 
 ## How to use
 
