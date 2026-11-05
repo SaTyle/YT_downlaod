@@ -1,3 +1,2 @@
 streamlit>=1.30
 yt-dlp>=2024.1
-flask>=3.0
